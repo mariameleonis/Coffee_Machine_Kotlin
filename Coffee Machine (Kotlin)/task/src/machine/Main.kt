@@ -12,7 +12,6 @@ class CoffeeMachine(
             if (value == State.IDLE) {
                 println()
                 println("Write action (buy, fill, take, remaining, exit): ")
-                //print("> ")
             }
             field = value
         }
@@ -27,7 +26,6 @@ class CoffeeMachine(
 
     init {
         println("Write action (buy, fill, take, remaining, exit): ")
-        //print("> ")
     }
 
     fun processInput(input: String) {
